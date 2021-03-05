@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+/*  Different Transition Style and Box Shadow Effect*/
+.hover1,
+.hover2,
+.hover3 {
+  position: relative;
+  margin: 1em;
+  min-width: 225px;
+  padding: 0.3em;
+  border-radius: 20px;
+  background: linear-gradient(to right, #cc2b5e, #753a88);
+  transition: all 0.9s ease-in-out;
+}
+.hover2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  box-shadow: -10px 5px 5px #ff0051;
+  text-transform: uppercase;
+}
+.hover1:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  transform: rotateY(1turn);
+  box-shadow: -10px 5px 5px #ff0051;
+  text-transform: uppercase;
+}
+
+.hover3:hover {
+  transform: skewX(30deg);
+  transform-origin: right;
+  box-shadow: -10px 5px 5px #ff0051;
+  text-transform: uppercase;
+}
+
+/* Targeting the Span*/
+
+span {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  display: block;
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+
+  background-color: #000;
+  border-radius: 17px;
+}
+span:hover {
+  background-color: white;
+  color: black;
+}
